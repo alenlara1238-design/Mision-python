@@ -130,7 +130,7 @@ Podrás incorporar:
 
 # Producto Final
 
-Al finalizar la actividad deberás entregar un videojuego funcional que incluya como mínimo:
+Al finalizar la actividad habrás creado un videojuego funcional que incluya como mínimo:
 
 - Una historia interactiva.
 - Navegación mediante decisiones.
