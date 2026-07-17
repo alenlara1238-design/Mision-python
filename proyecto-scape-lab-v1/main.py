@@ -88,7 +88,7 @@ print()
 # Ciclos: while y for
 #============================================
 
-while juego_activo == True:
+while juego_activo == True: # Ciclo while es una estructura que repetirá las veces que sea necesario, pero no sabemos cuantas veces serán. Ciclo INDETERMINADO.
 
     print()
     print("=" * 40)
@@ -105,7 +105,7 @@ while juego_activo == True:
         print()
         print("Exploras cuidadosamente la recepción")
 
-        if not llave:
+        if not llave: # Si llave guarda el valor: False
             print("Encuentras una pequeña llave.")
             print("La guardas en el inventario")
             llave = True
@@ -126,7 +126,7 @@ while juego_activo == True:
             inventario.append("Codigo descubierto")
         else:
             print("No encuentras nada más...")
-    
+
     elif opcion == "2":
         print()
         print("Inventario:")
@@ -167,3 +167,4 @@ print()
 print("="* 50)
 print("Gracias por jugar Mision Python")
 print("="* 50)
+
